@@ -20,7 +20,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # ============================================================================
 # 1. Data Loading
 # ============================================================================
-def load_bsd68_images(data_path=DATA_PATH, num_images=None):
+def load_bsd68_images(data_path=DATA_PATH, num_images=68):
     """Load BSD68 images from local folder."""
     images, image_names = [], []
     if not os.path.exists(data_path):
